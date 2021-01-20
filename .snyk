@@ -1,0 +1,55 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - jquery > npm > request > extend:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > node-gyp > request > extend:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > npm-registry-client > request > extend:
+        patched: '2021-01-20T22:09:18.097Z'
+  'npm:hoek:20180212':
+    - jquery > npm > node-gyp > request > hawk > hoek:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > npm-registry-client > request > hawk > hoek:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > npm-registry-client > request > hawk > boom > hoek:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > npm-registry-client > request > hawk > sntp > hoek:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > npm-registry-client > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-01-20T22:09:18.097Z'
+  'npm:qs:20170213':
+    - jquery > npm > request > qs:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > node-gyp > request > qs:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > npm-registry-client > request > qs:
+        patched: '2021-01-20T22:09:18.097Z'
+  'npm:stringstream:20180511':
+    - jquery > npm > request > stringstream:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > node-gyp > request > stringstream:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > npm-registry-client > request > stringstream:
+        patched: '2021-01-20T22:09:18.097Z'
+  'npm:tough-cookie:20170905':
+    - jquery > npm > request > tough-cookie:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > node-gyp > request > tough-cookie:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > npm-registry-client > request > tough-cookie:
+        patched: '2021-01-20T22:09:18.097Z'
+  'npm:tunnel-agent:20170305':
+    - jquery > npm > node-gyp > request > tunnel-agent:
+        patched: '2021-01-20T22:09:18.097Z'
+    - jquery > npm > npm-registry-client > request > tunnel-agent:
+        patched: '2021-01-20T22:09:18.097Z'
