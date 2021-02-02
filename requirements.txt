@@ -22,7 +22,7 @@ pyfiglet==0.8.post1
 pylint==2.5.0
 pyparsing==2.4.7
 python-dateutil==2.8.1
-PyYAML==5.3.1
+PyYAML==5.4
 requests==2.19.1
 six==1.14.0
 structlog==20.1.0
