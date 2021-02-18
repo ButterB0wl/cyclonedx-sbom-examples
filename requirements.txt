@@ -19,7 +19,7 @@ packaging==20.3
 pkginfo==1.5.0.1
 polling==0.3.1
 pyfiglet==0.8.post1
-pylint==2.5.0
+pylint==2.6.1
 pyparsing==2.4.7
 python-dateutil==2.8.1
 PyYAML==5.3.1
